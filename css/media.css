@@ -1,0 +1,198 @@
+
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 374.98px) {
+    .navbar-dark .navbar-brand {margin-left: 10px;}
+    .banner-content h1 {font-size: 30px;}
+    .banner-content p {padding: 20px 0px; font-size: 16px;}
+    .header-section .social {left: 50%;display: flex;bottom: 0;top: 52%;transform: translate(-50%, 52%);}
+    .header-section .social li {margin-right: 10px;}
+    .header-section .social span {position: absolute;transform: rotate(360deg);display: block;right:auto; margin-top: 13px; color: #fff;left: -50px;}
+    .banner-content .btn-download {margin-bottom: 10px;}
+    .navbar-dark .navbar-toggler {color:#40afcc; border-color:#40afcc;margin: 10px;}
+    .navbar-dark .navbar-nav .nav-link {padding:10px;}
+    .navbar-dark .navbar-nav .nav-link:hover::after {height: 2px;}
+    .navbar-dark .navbar-nav .active::after {height: 2px;}
+    
+    .about-us .heading h1 {font-size:40px; padding-bottom:33px;}
+    .about-us .heading h1 span {font-size:70px;}
+    .margintop30 {margin-top: 30px;}
+    .marginbottom30 {margin-bottom: 30px;}
+    .skill-section .heading h1 {font-size:20px; padding-bottom:12px;}
+    .skill-section .skill-heading h1 span {font-size:32px;}
+    .resume-section .heading h1 {font-size:25px; padding-bottom:9px;}
+    .resume-section .skill-heading h1 span {font-size: 33px;}
+    .resume-section .resume-content-box {padding-top:40px;}
+    .resume-heading {margin-top: 50px;}
+    .resume-single-box:hover .resume-box {
+    background-size: cover;
+    background-position:right center;
+    } 
+    .work-section .heading h1 {font-size: 25px;padding-bottom:11px;}
+    .work-tab {text-align: center;}
+    .work-section .skill-heading h1 span {font-size: 35px;}
+    .question-bg {border-bottom-right-radius: 100px;}
+    .question-content {text-align:center;}
+    .question-content h1, .question-content h3 {font-size:20px;}
+    .modal-btn {float: none;display:table;margin: 40px auto 0px;font-size: 16px;}
+    .heading h1 {font-size: 20px;padding-bottom: 20px;}
+    .contact-content-section .map-section {margin-top:30px;}
+    .testimonial-section .testimonial-content {margin-bottom: 30px;}
+    .about-us .about-content-section {margin-top: 40px;}
+    .about-us {padding:50px 0px;}
+    .question-section, .work-section, .resume-section, .testimonial-section, .contact-section {padding-bottom:60px;}
+    .skill-title h2 {font-size: 18px;}
+    .work-tab {padding:50px;}
+    .work-section .btn-custom {padding:4px 10px;}
+    .about-us .about-content p {text-align: justify;}
+    .contact-section .skill-heading h1 span {font-size: 45px;}
+    .contact-section .skill-heading h1 {padding-bottom: 25px;}
+}
+/* Small devices (small phones, iPhone , 576px and up)*/
+@media (min-width: 375px) and (max-width: 575.98px) {
+    
+    .navbar-dark .navbar-brand {margin-left: 10px;}
+    .banner-content h1 {font-size: 30px;}
+    .banner-content p {padding: 20px 0px; font-size: 16px;}
+    .header-section .social {left: 53%;display: flex;bottom: 0;top: 52%;transform: translate(-53%, 52%);}
+    .header-section .social li {margin-right: 10px;}
+    .header-section .social span {position: absolute;transform: rotate(360deg);display: block;right:auto; margin-top: 13px; color: #fff;left: -50px;}
+    .navbar-dark .navbar-toggler {color:#40afcc; border-color:#40afcc;margin: 10px;}
+    .navbar-dark .navbar-nav .nav-link {padding:10px;}
+    .navbar-dark .navbar-nav .nav-link:hover::after {height: 2px;}
+    .navbar-dark .navbar-nav .active::after {height: 2px;}
+    
+    .about-us .heading h1 {font-size:40px; padding-bottom:41px;}
+    .about-us .heading h1 span {font-size:80px;}
+    .margintop30 {margin-top: 30px;}
+    .marginbottom30 {margin-bottom: 30px;}
+    .skill-section .heading h1 {font-size:30px; padding-bottom: 11px;}
+    .skill-section .skill-heading h1 span {font-size:40px;}
+    .resume-section .heading h1 {font-size: 30px; padding-bottom: 12px;}
+    .resume-section .skill-heading h1 span {font-size: 40px;}
+    .resume-section .resume-content-box {padding-top:50px;}
+    .resume-heading {margin-top: 50px;}
+    .resume-single-box:hover .resume-box {
+    background-size: cover;
+    background-position:right center;
+    }
+    .work-section .heading h1 {font-size: 30px;padding-bottom:16px;}
+    .work-tab {text-align: center;}
+    .work-section .skill-heading h1 span {font-size: 45px;}
+    .question-bg {border-bottom-right-radius: 100px;}
+    .question-content {text-align:center;}
+    .question-content h1, .question-content h3 {font-size:24px;}
+    .modal-btn {float: none;display:table;margin: 40px auto 0px;font-size: 16px;}
+    .heading h1 {font-size: 30px;padding-bottom: 22px;}
+    .skill-heading h1 span {font-size: 50px;}
+    .contact-content-section .map-section {margin-top:30px;}
+    .about-us .about-content-section {margin-top: 40px;}
+    .about-us {padding:60px 0px;}
+    .question-section, .work-section, .resume-section, .testimonial-section {padding-bottom:60px;}
+    .skill-title h2 {font-size: 18px;}
+    .work-tab {padding:50px;}
+    .work-section .btn-custom {padding:4px 10px;}
+    .testimonial-section .testimonial-content {margin-bottom: 30px;}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     
+    .banner-content h1 {font-size: 45px;}
+    .banner-content p {padding: 25px 0px;}
+    .header-section .social {left: 61%;display: flex;bottom: 0;top: 52%;transform: translate(-61%, 52%);}
+    .header-section .social li {margin-right: 10px;}
+    .header-section .social span {position: absolute;transform: rotate(360deg);display: block;right:auto; margin-top: 13px; color: #fff;left: -50px;}
+    .navbar-dark .navbar-toggler {color:#40afcc; border-color:#40afcc;margin-top: 10px;}
+    .navbar-dark .navbar-nav .nav-link {padding:15px;}
+    .navbar-dark .navbar-nav .nav-link:hover::after {height: 3px;}
+    .navbar-dark .navbar-nav .active::after {height: 3px;}
+    
+    .about-us .heading h1 {font-size:40px; padding-bottom: 62px;}
+    .about-us .heading h1 span {font-size:100px;}
+    .about-us .row {justify-content: center;}
+    .skill-section .digital-marketing.row {justify-content: center;}
+    .margintop30 {margin-top: 30px;}
+    .skill-section .heading h1 {font-size:40px; padding-bottom: 21px;}
+    .skill-section .skill-heading h1 span {font-size:60px;}
+    .resume-section .heading h1 {font-size: 40px; padding-bottom: 22px;}
+    .resume-section .skill-heading h1 span {font-size: 60px;}
+    .resume-section .resume-content-box {padding-top:50px;}
+    .resume-heading {margin-top: 50px;}
+    .resume-single-box:hover .resume-box {
+    background-size: cover;
+    background-position:right center;
+    }
+    .work-section .heading h1 {font-size: 40px;padding-bottom: 22px;}
+    .work-tab {text-align: center;}
+    .work-section .skill-heading h1 span {font-size: 60px;}
+    .question-bg {border-bottom-right-radius: 100px;}
+    .question-content {text-align:center;}
+    .question-content h1, .question-content h3 {font-size:30px;}
+    .modal-btn {float: none;display:table;margin: 40px auto 0px;}
+    .heading h1 {font-size: 50px;}
+    .contact-content-section .row {justify-content:center;}
+    .contact-content-section .map-section {margin-top:30px;}
+    .testimonial-content ul li i {font-size: 45px;}
+    .testimonial-content ul li span {font-size: 18px;padding-left: 10px;}
+    .about-us .about-content-section {margin-top: 40px;}
+    .about-us {padding:60px 0 80px;}
+    .question-section, .work-section, .resume-section {padding-bottom:80px;}
+    .work-tab {padding:50px 0;}
+    .work-section .no-gutters.row {justify-content: center;}
+    .work-section .btn-custom {padding: 0.375rem 0.75rem;}
+    .skill-title h2 {font-size: 24px;} 
+    .testimonial-content {}
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .banner-content h1 {font-size: 55px;}
+    .banner-content p {padding: 30px 0 40px;}
+    .header-section .social {right: 10px;}
+    .navbar-dark .navbar-toggler {color:#40afcc; border-color:#40afcc;margin-top: 10px;}
+    .navbar-dark .navbar-nav .nav-link {padding:15px;}
+    .navbar-dark .navbar-nav .nav-link:hover::after {height: 3px;}
+    .navbar-dark .navbar-nav .active::after {height: 3px;}
+    .about-us .row {justify-content: center;}
+    .about-us .about-content-section {margin-top: 40px;}
+    .skill-section .heading h1 {font-size: 60px; padding-bottom: 23px;}
+    .skill-section .skill-heading h1 span {font-size: 80px;}
+    .resume-section .heading h1 {font-size: 60px; padding-bottom: 23px;}
+    .resume-section .skill-heading h1 span {font-size: 80px;}
+    .resume-section .resume-content-box {padding-top:60px;}
+    .resume-heading {margin-top: 50px;}
+    .work-section .heading h1 {font-size: 50px;}
+    .work-section .skill-heading h1 span {font-size: 80px;}
+    .question-bg {border-bottom-right-radius: 100px;}
+    .question-content {text-align:center;}
+    .question-content h1, .question-content h3 {font-size:30px;}
+    .modal-btn {float: none;display:table;margin: 40px auto 0px;}
+    .contact-content-section .row {justify-content:center;}
+    .contact-content-section .map-section {margin-top:30px;}
+    .testimonial-content ul li i {font-size: 55px;}
+    .testimonial-content ul li span {font-size: 24px;padding-left: 20px;}
+    .about-us {padding:80px 0;}
+    .question-section, .work-section, .resume-section {padding-bottom:100px;}
+    
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-us .row {align-items: center;}
+    .about-us .heading {padding-top: 0px;}
+    .resume-single-box:hover .resume-box {
+    background-size: cover;
+    background-position:right center;
+    }
+    .modal-btn {font-size: 18px;}
+    .question-bg {border-bottom-right-radius: 100px;}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
